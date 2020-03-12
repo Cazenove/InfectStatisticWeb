@@ -26,7 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -74,30 +74,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1583726287079" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1583766956935">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1584020911472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583766956935" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1583766956935">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584020911472" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1584020911472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583766956935" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1583766956935">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584020911472" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1584020911472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583766956935" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1583766956935">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584020911472" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1584020911472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583766956935" />
-    <state x="273" y="41" width="996" height="707" key="SettingsEditor" timestamp="1583726274080">
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584020911472" />
+    <state x="273" y="41" width="996" height="707" key="SettingsEditor" timestamp="1584020202257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="273" y="41" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583726274080" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583918482578">
+    <state x="273" y="41" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584020202257" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584018953506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583918482578" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584018953506" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1583744213812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

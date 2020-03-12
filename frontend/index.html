@@ -1,37 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="dist\css\bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-  <script src="jquery-3.3.1.js"></script>
-  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-  <script src="dist\css\bootstrap.css"></script>
-  <title>Document</title>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href="dist\css\bootstrap.css" rel="stylesheet">
+  	<link rel="stylesheet" href="index.css">
+  	<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+  	<script src="jquery-3.3.1.js"></script>
+	  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	  <script src="index.js"></script>
+  	<script src="dist\css\bootstrap.css"></script>
+  	<title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <h1 class="theme">中国疫情地图</h1>
+		<div class="nav-header">
+			<div class="nav-map">
+
+			</div>
+		</div>
+    	<div class="header">
+    	<h1 class="theme">中国疫情地图</h1>
     </div>
     <div class="main-part">
-      <p class="new-time">更新至2020.3.11</p>
-      <div class="main-part1">
-        <div>
-            
-        </div>
-        <div>
-            
-        </div>
+      	<p class="new-time">更新至2020.3.11</p>
+      	<div class="main-part1">
+        	<div id="exist-dia">
+				<p class="nominate">现有确诊</p>
+				<div id="exist-dia-num">12345</div>
+				<div class="compare-num">昨日-2150</div>
+        	</div>
+        	<div id="exist-sus">
+				<p class="nominate">现有疑似</p>
+			</div>
+			<div id="exist-sev">
+				<p class="nominate">现有重症</p>
+			</div>
+			<div id="all-dia">
+				<p class="nominate">累计确诊</p>
+			</div>
+			<div id="all-cure">
+				<p class="nominate">累计治愈</p>
+			</div>
+			<div id="all-dead">
+				<p class="nominate">累计死亡</p>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-left">
+				<p class="nav-name">现有确诊</p>
+			</div>
+			<div class="nav-right">
+				<p class="nav-name">现有疑似</p>
+			</div>
+		</div>
+		<div class="echarts1">
+			123
+		</div>
+		<div>
+			<table class="table table-bordered">
+				...
+			  </table>
+		</div>
 
-      </div>
+		
+		
+		  
 
     </div>
     
 
-  </div>
+
 </body>
 </html>
 

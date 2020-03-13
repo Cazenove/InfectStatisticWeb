@@ -2,18 +2,33 @@
     width: 695px;
     height: 50px;
     position: fixed;
-    background-color: royalblue;
+    background-color: #fff;
     left: 50%;
     margin-left: -347.5px;
     z-index: 10;
     opacity: 0.6;
+    border-radius: 1.25rem;
 }
-.nav-header .nav-map{
-    width: 150px;
+.nav-header .nav-1{
+    width: 173.75px;
     height: 50px;
     float: left;
-    background-color: salmon;
+    border-radius: 1.25rem;
+    position: relative;
 }
+.nav-header .nav-1:hover{
+    background-color: #eeeeee;
+}
+.nav-header .nav-1 a{
+    width: 173.75px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    top: 13px;
+    left: 3px;
+}
+
 .header{
     background-image: url(79cc66862a95704652df8c41b269afdd.png);
     width: 695px;
@@ -32,7 +47,7 @@
 }
 .main-part{
     width: 695px;
-    height: 1000px;
+    height: 2000px;
     background-color: #AAEAEA;
     margin: 0 auto;
     border-radius: 2.5rem;
@@ -89,7 +104,6 @@
     height: 80px;
     top: 126px;
     left: 215px;
-    background-color: firebrick;
 }
 #all-dead{
     position: absolute;
@@ -97,7 +111,7 @@
     height: 80px;
     top: 126px;
     left: 385px;
-    background-color: lawngreen;
+
 }
 .nominate{
     text-align: center;
@@ -112,13 +126,89 @@
     color: #FF6A57;
     border-right:0.5px solid rgba(0,0,0,0.8);
 }
-.compare-num{
+.exist-dia-compare-num{
     text-align: center;
     font-size: small;
     font-weight: 300;
     border-right:0.5px solid rgba(0,0,0,0.8); 
     
 }
+#exist-sus-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #E3A342;
+    border-right:0.5px solid rgba(0,0,0,0.8);
+}
+.exist-sus-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    border-right:0.5px solid rgba(0,0,0,0.8); 
+    
+}
+#exist-sev-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #476DA0;
+ 
+}
+.exist-sev-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+
+    
+}
+#all-dia-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #E83132;
+    border-right:0.5px solid rgba(0,0,0,0.8);
+}
+.all-dia-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    border-right:0.5px solid rgba(0,0,0,0.8); 
+    
+}
+#all-cure-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #10AEB5;
+    border-right:0.5px solid rgba(0,0,0,0.8);
+}
+.all-cure-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    border-right:0.5px solid rgba(0,0,0,0.8); 
+    
+}
+#all-dead-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #4D5054;
+    
+}
+.all-dead-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    
+    
+}
+
 .nav{
     position: absolute;
     width: 599px;
@@ -161,4 +251,28 @@
     background-color: #CEEEEE;
     top: 360px;
     border-radius: 1rem;
+}
+.province{
+    position: absolute;
+    width: 599px;
+    height: 800px;
+    left: 48px;
+    background-color: #CEEEEE;
+    top:780px;
+    border-radius: 1rem;
+}
+.province .theme2{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.province .province-date{
+    float: left;
+    margin-top: 40px;
+    margin-left: -56px;
+}
+.province .table-part1{
+    width: 500px;
+    height: 600px;
+    margin: 80px auto;
 }

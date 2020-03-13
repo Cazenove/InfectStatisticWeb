@@ -243,14 +243,24 @@
 .nav-left:hover{
     background-color: #fff;
 }
-.echarts1{
+#echarts1{
     position: absolute;
     width: 599px;
-    height: 400px;
+    height: 599px;
     left: 48px;
     background-color: #CEEEEE;
     top: 360px;
     border-radius: 1rem;
+}
+#echarts2{
+    position: absolute;
+    width: 599px;
+    height: 599px;
+    left: 48px;
+    background-color: #CEEEEE;
+    top: 360px;
+    border-radius: 1rem;
+    display: none;
 }
 .province{
     position: absolute;
@@ -258,7 +268,7 @@
     height: 800px;
     left: 48px;
     background-color: #CEEEEE;
-    top:780px;
+    top:980px;
     border-radius: 1rem;
 }
 .province .theme2{

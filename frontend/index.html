@@ -9,10 +9,25 @@
   	<script src="jquery-3.3.1.js"></script>
 	  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 	  <script src="index.js"></script>
-  	<script src="css\bootstrap.css"></script>
+	  <script src="css\bootstrap.css"></script>
+	  <script type="text/javascript">
+		function show1(){
+    
+    document.getElementById("echarts1").style.display='block';
+    document.getElementById("echarts2").style.display='none';
+	}
+	function show2(){
+    
+    document.getElementById("echarts1").style.display='none';
+    document.getElementById("echarts2").style.display='block';
+
+	}
+
+	  </script>
   	<title>Document</title>
 </head>
 <body>
+		<div class="container">
 		<div class="nav-header">
 			<div class="nav-1">
 				<a href="#jump1">疫情地图</a>
@@ -65,16 +80,19 @@
 			</div>
 		</div>
 		<div class="nav" id="jump1">
-			<div class="nav-left">
+			<div class="nav-left" onclick="show1()">
 				<p class="nav-name">现有确诊</p>
 				
 			</div>
-			<div class="nav-right">
+			<div class="nav-right" onclick="show2()">
 				<p class="nav-name">现有疑似</p>
 			</div>
 		</div>
-		<div class="echarts1">
+		<div id="echarts1">
 			123
+		</div>
+		<div id="echarts2">
+			456
 		</div>
 		<div class="province" id="jump2">
 			<p class="theme2">国内疫情</p>
@@ -123,22 +141,22 @@
 						<td>12</td>
 						<td>12</td>	
 					</tr>
-					<tr>
-						<td>12</td>
-						<td>12</td>
-						<td>12</td>
-						<td>12</td>
-						<td>12</td>	
-					</tr>
+					<tr><td>12</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+					<tr><td>12</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+					<tr><td>12</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+					<tr><td>12</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+					
 				</table>
 			</div>
 		</div>
+		
 
 		
 		
 		  
 
-    </div>
+	</div>
+</div>
     
 
 

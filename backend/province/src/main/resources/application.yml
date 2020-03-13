@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: 
+    active:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    设置时区否则会报错
@@ -11,3 +11,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+server:
+  port: 8081

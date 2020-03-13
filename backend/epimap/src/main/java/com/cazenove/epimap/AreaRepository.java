@@ -1,4 +1,4 @@
-package com.cazenove.province;
+package com.cazenove.epimap;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

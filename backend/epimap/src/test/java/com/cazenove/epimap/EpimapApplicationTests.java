@@ -1,10 +1,10 @@
-package com.cazenove.province;
+package com.cazenove.epimap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProvinceApplicationTests {
+class EpimapApplicationTests {
 
     @Test
     void contextLoads() {

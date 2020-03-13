@@ -1,4 +1,4 @@
-package com.cazenove.province;
+package com.cazenove.epimap;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

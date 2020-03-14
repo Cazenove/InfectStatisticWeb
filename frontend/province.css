@@ -1,0 +1,141 @@
+.nav-new{
+    width: 231.66px;
+    height: 50px;
+    float: left;
+    border-radius: 1.25rem;
+    position: relative;
+}
+
+.nav-new{
+    background-color: #eeeeee;
+}
+.nav-new a{
+    width: 231.66px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    top: 13px;
+    left: 3px;
+}
+.province-new-time{
+    position: absolute;
+    top: 80px;
+    left: 55px; 
+}
+.province-name{
+    position: absolute;
+    top: 60px;
+    left: 55px; 
+    font-weight: bolder;
+}
+.province-main-part{
+    width: 599px;
+    height: 100px;
+    background-color: #CEEEEE;
+    border-radius: 1.75rem;
+    position: absolute;
+    top: 100px;
+    left: 48px;
+}
+#province-exist-dia{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+#province-all-dia{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#province-all-cure{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+   
+}
+#province-all-dead{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+   
+}
+#province-exist-dia-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #FF6A57;
+}
+.province-exist-dia-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    
+}
+#province-all-dia-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #E83132;
+
+}
+.province-all-dia-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+}
+#province-all-cure-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #10AEB5;
+}
+.province-all-cure-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    
+}
+#province-all-dead-num{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: #4D5054;
+    
+}
+.province-all-dead-compare-num{
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+    
+    
+}
+.line-chart{
+    position: absolute;
+    width: 599px;
+    height: 380px;
+    left: 48px;
+    background-color: #CEEEEE;
+    top: 260px;
+    border-radius: 1rem;
+}
+.line-chart-name{
+    position: absolute;
+    font-weight: bolder;
+    font-size: large;
+    top: 235px;
+    left: 48px;
+}

@@ -265,7 +265,7 @@
 .province{
     position: absolute;
     width: 599px;
-    height: 800px;
+    height: 880px;
     left: 48px;
     background-color: #CEEEEE;
     top:980px;
@@ -286,17 +286,36 @@
     height: 600px;
     margin: 80px auto;
 }
-.province .table-part1 table, th, td{
-    border: 1px solid blue;
-    text-align: center;
+.province-table{
+    width: 500px;
+    height: 20px;
 }
+.province-table th, .province-table tr,.province-table td{
+    border: 1px solid #fff;
+    text-align: center;
+} 
+.province-table th{
+
+    width: 100px;
+}
+.province-table td{
+    background-color: #DFF4F4;
+}
+.province-table td:first-child,.province-table th:first-child{
+    background-color: #B2F4F4;
+}
+.table-color1{background-color: #D29AA4;}
+.table-color2{background-color: #DBD0A6;}
+.table-color3{background-color: #CCF2C8;}
+.table-color4{background-color: #6A7272;}
+.table-color5{background-color: #C9C7F4;}
 .migrate{
     position: absolute;
     width: 599px;
-    height: 800px;
+    height: 920px;
     left: 48px;
     background-color: #CEEEEE;
-    top:1820px;
+    top:1900px;
     border-radius: 1rem;
 }
 .migrate .migrate-name{
@@ -310,6 +329,24 @@
     height: 40px;
     background-color: #EDF9F9;
     border-radius: 1rem;
+}
+.migrate-table1{
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+}
+.migrate-table1 table{
+    width: 500px;
+    height: 20px;
+    text-align: center;
+}
+.migrate-table1 th, .migrate-table1 tr,.migrate-table1 td{
+    border: 1px solid #fff;
+    text-align: center;
+    
+} 
+.migrate-table1 td{
+    background-color: #DFF4F4;
 }
 #table2 {
     display: none;

@@ -47,7 +47,7 @@
 }
 .main-part{
     width: 695px;
-    height: 2000px;
+    height: 3800px;
     background-color: #AAEAEA;
     margin: 0 auto;
     border-radius: 2.5rem;
@@ -214,7 +214,7 @@
     width: 599px;
     height: 40px;
     left: 48px;
-    background-color: #CEEEEE;
+    background-color: #EDF9F9;
     top: 310px;
     border-radius: 1rem;
 }
@@ -222,14 +222,14 @@
     float: left;
     width: 299.5px;
     height: 40px;
-    
+    background-color: #EDF9F9;
     border-radius: 1rem;
 }
 .nav-right{
     float:left;
     width: 299.5px;
     height: 40px;
-    
+    background-color: #EDF9F9;
     border-radius: 1rem;
 }
 .nav-name{
@@ -285,4 +285,32 @@
     width: 500px;
     height: 600px;
     margin: 80px auto;
+}
+.province .table-part1 table, th, td{
+    border: 1px solid blue;
+    text-align: center;
+}
+.migrate{
+    position: absolute;
+    width: 599px;
+    height: 800px;
+    left: 48px;
+    background-color: #CEEEEE;
+    top:1820px;
+    border-radius: 1rem;
+}
+.migrate .migrate-name{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    top: 20px;
+}
+.migrate-nav{
+    width: 599px;
+    height: 40px;
+    background-color: #EDF9F9;
+    border-radius: 1rem;
+}
+#table2 {
+    display: none;
 }

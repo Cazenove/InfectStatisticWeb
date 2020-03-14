@@ -2,11 +2,10 @@ spring:
   profiles:
     active:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    #    设置时区否则会报错
-    url: jdbc:mysql://127.0.0.1:3306/chinamap?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chinamap?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password:
+    password: qwQW12!@
   jpa:
     hibernate:
       ddl-auto: update

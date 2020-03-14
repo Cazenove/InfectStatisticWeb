@@ -10,7 +10,7 @@ $(document).ready(function() {
 			var json = JSON.parse(xmlhttp.responseText);
 			var moveInList = json.result.moveInList;
 			var tb = "";
-			for (var i = 0; i < 10; i++) {
+			for (var i = 0; i < 30; i++) {
 				tb += "<tr><td>" + (i+1) + "</td>" +
 					"<td>" + moveInList[i].city_name + "</td>" +
 					"<td>" + moveInList[i].value + "</td>" +
@@ -20,7 +20,7 @@ $(document).ready(function() {
 			
 			var moveOutList = json.result.moveOutList;
 			tb="";
-			for (var i = 0; i < 10; i++) {
+			for (var i = 0; i < 30; i++) {
 				tb += "<tr><td>" + (i+1) + "</td>" +
 					"<td>" + moveOutList[i].city_name + "</td>" +
 					"<td>" + moveOutList[i].value + "</td>" +

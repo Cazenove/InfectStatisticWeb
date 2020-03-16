@@ -13,7 +13,7 @@ raw_info = json.loads(data.text)
 # 从json数据中获取想要的内容
 raw_comments = raw_info['data']['areaInfoVOS']
 
-# 循环raw_comments的长度 (这里长度是34) 所以循环之后用i来存储，然后定义aa 来进行拼接就可以获取想要的json内容
+# 循环raw_comments的长度 (这里长度是34) 所以循环之后用i来存储，然后定义each_raw 来进行拼接就可以获取想要的json内容
 for i in range(len(raw_comments)):
     each_raw = raw_comments[i]['children']
 

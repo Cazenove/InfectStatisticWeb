@@ -27,6 +27,7 @@
     position: absolute;
     top: 13px;
     left: 3px;
+    text-decoration:none
 }
 
 .header{
@@ -47,7 +48,7 @@
 }
 .main-part{
     width: 695px;
-    height: 3800px;
+    height: 2880px;
     background-color: #AAEAEA;
     margin: 0 auto;
     border-radius: 2.5rem;
@@ -351,3 +352,24 @@
 #table2 {
     display: none;
 }
+.newslist-name{
+    position: absolute;
+    font-weight: bolder;
+    font-size: large;
+    top:1875px;
+    left: 48px;
+}
+#newslist li{
+    width: 520px;
+    background-color: #fff;
+    list-style-type: none;
+    padding-left:30px;
+
+    padding-top:15px;
+    background: url(find.png) no-repeat;
+}
+#newslist li p:first-child{
+    font-weight: bolder;
+    font-size: large;
+}
+

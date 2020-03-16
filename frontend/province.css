@@ -6,9 +6,10 @@
     position: relative;
 }
 
-.nav-new{
+.nav-new:hover{
     background-color: #eeeeee;
 }
+
 .nav-new a{
     width: 231.66px;
     height: 50px;
@@ -17,6 +18,15 @@
     position: absolute;
     top: 13px;
     left: 3px;
+    text-decoration:none
+}
+.main-part2{
+    width: 695px;
+    height: 1700px;
+    background-color: #AAEAEA;
+    margin: 0 auto;
+    border-radius: 2.5rem;
+    position: relative;
 }
 .province-new-time{
     position: absolute;
@@ -138,4 +148,28 @@
     font-size: large;
     top: 235px;
     left: 48px;
+}
+.localnews-name{
+    position: absolute;
+    font-weight: bolder;
+    font-size: large;
+    top: 890px;
+    left: 48px;
+}
+#localnews-wrap{
+    position: absolute;
+    width: 599px;
+    height: 680px;
+    left: 48px;
+    background-color: #CEEEEE;
+    top: 920px;
+    border-radius: 1rem;
+}
+#localnews{
+    pointer-events: none;
+    float: left;
+    width: 560px;
+    height: 620px;
+    margin-left: 20px;
+    margin-top: 30px;
 }

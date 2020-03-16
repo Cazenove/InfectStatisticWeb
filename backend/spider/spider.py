@@ -39,7 +39,7 @@ for i in range(len(raw_comments)):
         sum_heal += int(heal)
 
         # 连接数据库
-        conn = pymysql.connect(host="localhost", user="root", password="", database="chinamap", charset="utf8")
+        conn = pymysql.connect(host="localhost", user="root", password="qwQW12!@", database="chinamap", charset="utf8")
         cursor = conn.cursor()
 
         #构建一条城市数据
